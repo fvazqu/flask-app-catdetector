@@ -1,0 +1,87 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    font-size: 16px;
+}
+h1 {
+    margin: 1em auto;
+    text-align: left;
+    color: white;
+    text-indent: 250px;
+    font-family: "Candara", sans-serif;
+    font-size: 30px;
+}
+h2, p {
+    margin: 0 auto;
+    text-align: left;
+    font-family: "Candara", sans-serif;
+    font-size: 20px;
+    color:white;
+}
+form {
+    width: 60vw;
+    max-width: 400px;
+    min-width: 300px;
+    /*margin-left: 250px;*/
+    padding-bottom: 2em;
+}
+fieldset {
+    border: none;
+    text-align: left;
+    padding: 2rem 0;
+}
+label {
+    display: block;
+    margin: 0 0;
+    font-family: "Arial", sans-serif;
+    font-size: 50px;
+    color:white;
+}
+input, textarea {
+    background-color: white;
+    border: 1px solid;
+    text-align: left;
+    width: calc(95% - 1rem); /* Adjusted width to account for padding */
+    height: 30px;
+    padding-left: 1rem;
+}
+input[type="submit"] {
+    width: calc(96%); /* Adjusted width to account for padding */
+    height: 35px;
+    padding-left: 1rem;
+}
+.container {
+    display: flex;
+    align-items: center; /* Vertically center items */
+    justify-content: center; /* Horizontally center items */
+}
+.form-container {
+    width: 50%; /* Adjust as needed */
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-container {
+    width: 50%; /* Adjust as needed */
+    text-align: center;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+/* Adjust image styles if needed */
+.image-container img {
+    max-width: 100%; /* Make sure the image doesn't exceed its container */
+    max-height: 50%;
+    display: block;
+    width: auto;
+    height: auto;
+    padding: 10px;
+}
+.chat {
+    flex-direction: column; /* Stack items vertically */
+    margin-left: calc(12% - (12% * 0.12));
+    text-align: left;
+}
+/*input[type]*/
